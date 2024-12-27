@@ -1,0 +1,20 @@
+<!-- views/itineraries.hbs -->
+<div  style= "text-align: center;" >
+  <h1>All Itineraries</h1>
+  <a href="/create-itinerary" style="font-size: 30px; color:rgb(7, 91, 36);">Create Itinerary</a>
+</div>
+
+<ul>
+  {{#each itineraries}}
+    <li>
+      <a href="/itineraries/{{this._id}}" style="font-size: 30px;">{{this.title}}</a>
+      <h4 style="margin-top: 5px">Destination: {{ this.destination}}</h4>
+      <h4 style="margin-top: -10px">Date: {{formatDate this.startDate}} - {{ formatDate this.endDate}}</h4>
+
+      <form action="/itineraries/{{this._id}}/delete" method="POST" style="display:inline;">
+        <input type="hidden" name="_method" value="DELETE">
+        <button type="submit" style="margin-bottom: 20px;">Delete</button>
+      </form>
+    </li>
+  {{/each}}
+</ul>

@@ -1,0 +1,33 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Log In</title>
+</head>
+<body>
+  <h1 style="text-align: center;">Log In</h1>
+  <form style="font-size: larger; display: block;
+      width: 100%;
+      margin-bottom: 15px;" action="/login" method="POST">
+
+    {{!-- <label for="userId">User ID:</label>
+    <input type="text" name="userId" required><br><br> --}}
+
+    {{!-- <label  for="userName">User Name: </label>
+    <input type="text" id="userName" name="userName" required> --}}
+
+    <label for="email">Email: </label>
+    <input type="email" id="email" name="email" required>
+
+    {{!-- <label for="photo">Photo: </label>
+    <input type="text" id="photo" name="photo" required> --}}
+
+    <label for="password">Password: </label>
+    <input type="password" id="password" name="password" required>
+
+    <button type="submit">Login</button>
+</form>
+</body>
+</html>

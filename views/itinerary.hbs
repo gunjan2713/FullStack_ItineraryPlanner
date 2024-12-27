@@ -1,0 +1,32 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Create Itinerary</title>
+</head>
+<body>
+  <h1 style="text-align: center;">Create Itinerary</h1>
+  <form  action="/create-itinerary" method="POST">
+
+    {{!-- <label for="userId">User ID:</label>
+    <input type="text" name="userId" required><br><br> --}}
+
+    <label for="title">Itinerary Name:</label>
+    <input type="text" id="title" name="title" required>
+
+    <label for="startDate">Start Date:</label>
+    <input type="date" id="startDate" name="startDate" required>
+
+    <label for="endDate">End Date:</label>
+    <input type="date" id="endDate" name="endDate" required>
+
+    <label for="destination">Destination:</label>
+    <input type="text" id="destination" name="destination" required>
+
+
+    <button type="submit">Create Itinerary</button>
+</form>
+</body>
+</html>
