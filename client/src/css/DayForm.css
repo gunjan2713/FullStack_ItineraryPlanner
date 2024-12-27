@@ -1,0 +1,137 @@
+
+/* DayForm styles */
+.navbar {
+  display: flex;
+  justify-content: end; /* Align items to the end horizontally */
+  text-decoration: solid;
+  padding: 5px 10px;
+  border-width: 4px;
+  border: #4a536b;
+  border-radius: 5px;
+  font-size: 20px;
+  color: #ffffff;
+  background-color: #fd604c;
+  margin: 10px 10px;
+}
+.dayform-container {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #aed6dc;
+  min-height: 100vh;
+  border-radius: 8px;
+}
+
+.dayform-header {
+  font-size: 25px;
+  color: #4a536b;
+  text-align: center;
+}
+
+.dayform-error {
+  color: red;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.dayform-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #4a536b;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dayform-input-group {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+
+.dayform-label {
+  margin-bottom: 5px;
+  font-size: 17px;
+  color: #ff9a8d;
+}
+
+.dayform-input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.dayform-add-button {
+  padding: 10px 20px;
+  background-color: #ff9a8d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.dayform-add-button:hover {
+  background-color: #fd604c;
+}
+
+.dayform-subheader {
+  font-size: 25px;
+  color: #4a536b;;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.dayform-days-list {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.dayform-day-card {
+  transition: all 0.3s ease;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  margin-bottom: 1rem;
+  background-color: #f9f9f9;
+}
+
+.dayform-day-card.expanded {
+  padding: 2rem;
+  border: 2px solid #aaa;
+  background-color: #e6f7ff;
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.dayform-day-number {
+  color: #000000;
+}
+
+.dayform-schedule-button {
+  font-size: 14px;
+  padding: 8px 15px;
+  background-color: #ff9a8d;
+  color: #4a536b;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.dayform-schedule-button:hover {
+  background-color: #fd604c;
+}
+
+.dayform-no-days {
+  text-align: center;
+  color: #333;
+  margin-top: 15px;
+}

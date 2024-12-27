@@ -1,0 +1,129 @@
+body {
+  background: #aed6dc;
+  height: 100vh;
+}
+
+.activityform-container {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #aed6dc;
+  min-height: 100vh;
+  border-radius: 8px;
+}
+
+.activityform-header {
+  font-size: 26px;
+  text-align: center;
+  color: #4a536b;
+}
+
+.activityform-error {
+  color: red;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.activityform-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #4a536b;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.activityform-input-group {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+
+.activityform-label {
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #ff9a8d;
+}
+
+.activityform-input,
+.activityform-textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.activityform-submit-button {
+  padding: 10px;
+  background-color: #ff9a8d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.activityform-submit-button:hover {
+  background-color: #ee5f4d;
+}
+
+.activityform-toggle-button {
+  padding: 10px;
+  margin-bottom: 15px;
+  background-color: #ff9a8d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.activityform-toggle-button:hover {
+  background-color: #ff9a8d;
+}
+
+.activityform-subheader {
+  font-size: 24px;
+  margin-top: 30px;
+  color: #4a536b;
+}
+
+.activityform-table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.activityform-table th,
+.activityform-table td {
+  padding: 12px;
+  border: 1px solid #ff9a8d;
+}
+
+.activityform-table th {
+  background-color: #4a536b;
+  color: white;
+}
+
+.activityform-delete-button {
+  padding: 5px 10px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.activityform-delete-button:hover {
+  background-color: #d32f2f;
+}
+
+.activityform-no-activities {
+  font-size: 16px;
+  color: #888;
+  text-align: center;
+  margin-top: 20px;
+}

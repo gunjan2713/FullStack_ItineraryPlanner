@@ -1,0 +1,83 @@
+/* Background styling */
+.login-page {
+  background: url('../img/Background1.jpg') no-repeat center center/cover;
+  height: 100vh;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  font-family: Futura, sans-serif;
+  color: #E3867D;
+}
+
+.login-page img{
+  margin-top: -70px;
+  margin-left: -1000px;
+  height: 30%;
+  width: 30%;
+}
+/* Centered login container */
+.login-container {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 2rem;
+  border-radius: 8px;
+  margin-left: 60px;
+  width: 350px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Input field styling */
+.input-group {
+  margin-bottom: 1.5rem;
+  margin-right: 20px;
+}
+
+.input-group label {
+  display: block;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  /* margin-right: 10px; */
+}
+
+.input-group input {
+  width: 100%;
+  padding: 0.8rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 4px;
+  margin-top: 0.3rem;
+  
+}
+
+/* Error message */
+.error-message {
+  color: #ff6b6b;
+  margin-bottom: 1rem;
+}
+
+/* Button styling */
+.login-button {
+  background-color: #ff6b6b;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  padding: 0.8rem;
+  width: 100%;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.login-button:hover {
+  background-color: #f13838;
+}
+
+/* Link styling */
+a {
+  color: #ff6b6b;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
