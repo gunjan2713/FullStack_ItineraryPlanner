@@ -3,7 +3,7 @@
 
 URL for deployed site 
 ---
-(http://linserv1.cims.nyu.edu:27026/)
+([http://linserv1.cims.nyu.edu:27026/])
 
 ## Overview
 
