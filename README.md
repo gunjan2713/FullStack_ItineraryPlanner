@@ -1,6 +1,10 @@
 
 # Itinerary Planner
 
+URL for deployed site 
+---
+(http://linserv1.cims.nyu.edu:27026/)
+
 ## Overview
 
 The Itinerary Planner is a web application that allows users to create personalized travel plans. Users can add locations, schedule activities across multiple days, and input details like estimated time and cost for each activity. This app is designed to help travelers organize and manage their itineraries, ensuring they make the most of their trips.
